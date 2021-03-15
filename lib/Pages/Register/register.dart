@@ -2,7 +2,7 @@ import 'package:code_group_test/Pages/login/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Register extends StatelessWidget {
+class Registrar extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   String _message = "Todo's";
 
@@ -111,7 +111,7 @@ class Register extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Register()),
+                    MaterialPageRoute(builder: (context) => Registrar()),
                   );
                 },
               ),
